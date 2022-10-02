@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(ls -c -m -F | tr -d '[:space:]')

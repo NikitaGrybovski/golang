@@ -1,0 +1,4 @@
+#!/bin/bash
+printf "$(find . -name 'a*' -or -name '*z' -or -name 'z*' -and -name '*a!')" 
+
+
